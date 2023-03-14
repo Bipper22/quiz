@@ -1,0 +1,19 @@
+print('Entrevista existencial')
+
+num_preguntas= "2"
+
+
+
+respuesta = input(f'Le haré {num_preguntas} preguntas ¿Me permite el placer? (si/no) :')
+if respuesta.lower() == 'no':
+ print("jajaja que gai")
+
+if respuesta.lower() == "si":
+  print("¿Cómo se llama?:")
+  nombre=input()
+  respuesta = input(f"eri gai {nombre}?")
+  if respuesta.lower() == "si":
+    print(f"jajaja ke gai eres {nombre}")
+
+  if respuesta.lower() == "no":
+    print(f"fake, ere mui gai {nombre} jajaj")
